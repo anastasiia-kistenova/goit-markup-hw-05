@@ -674,7 +674,7 @@ padding: 72px 24px 24px 24px;
 .modal-btn:focus .icon-modal,
 .modal-btn:hover .icon-modal {
     fill: white;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 
@@ -700,7 +700,7 @@ padding: 72px 24px 24px 24px;
 .modal-btn:hover,
 .modal-btn:focus {
 background-color: #404BBF;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 border: none;
 }
 
@@ -734,7 +734,7 @@ border: none;
 
 .modal-input:focus + .icon-modal-form {
     fill: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -794,7 +794,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-form-btn:hover,
 .modal-form-btn:focus {
     background-color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
