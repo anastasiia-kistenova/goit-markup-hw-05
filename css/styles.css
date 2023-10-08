@@ -488,17 +488,18 @@ background-color: #31d0aa;
 }
 
 .input-footer {
-    background-color: transparent;border-radius: 4px;
+    background-color: transparent;
+    border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
      width: 264px;
     height: 40px;
     padding-left: 16px;
     color: var(--WHITE, #FFF);
     font-size: 12px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.48px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .input-footer::placeholder {
@@ -515,8 +516,8 @@ letter-spacing: 0.48px;
 
 .footer-btn {
     border-radius: 4px;
-    background: #4D5AE5;
-    display: inline-flex;
+    background-color: #4D5AE5;
+    display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -526,12 +527,11 @@ letter-spacing: 0.48px;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
         cursor: pointer;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         align-items: flex-start;
-        display: block;
         min-width: 165px;
         height: 40px;
         border: none;
@@ -545,11 +545,16 @@ letter-spacing: 0.48px;
 
 .icon-footer-subscribe {
     fill: #FFF;
+    margin-left: 16px;
 }
 
-.container-footer-btn {
-    margin: 0 159px 0 24px;
+
+
+.footer-form {
+    display: flex;
+    gap: 24px;
 }
+
 
 
 .main-text {
